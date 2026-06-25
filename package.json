@@ -1,0 +1,30 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "sass project",
+  "keywords": [
+    "css",
+    "js",
+    "frontend",
+    "sass"
+  ],
+  "homepage": "https://github.com/nimboo-zrad/sass#readme",
+  "bugs": {
+    "url": "https://github.com/nimboo-zrad/sass/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimboo-zrad/sass.git"
+  },
+  "license": "MIT",
+  "author": "nima",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "cd styles && sass main.scss main.css && cd .. && node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "sass": "^1.101.0"
+  }
+}
