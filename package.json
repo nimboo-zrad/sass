@@ -21,7 +21,8 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "test": "cd styles && sass main.scss main.css && cd .. && node server.js"
+    "test": "cd styles && sass main.scss main.css && cd .. && node server.js",
+    "update": "git restore . && git pull"
   },
   "dependencies": {
     "express": "^5.2.1",
