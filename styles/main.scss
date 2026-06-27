@@ -1,31 +1,5 @@
 @use 'lib';
 
-$light: #fefefe;
-$dark: #565656;
-
-body{
-	p{
-		background-color: $dark;
-		color: $light;
-		width: 50vw;
-		height: 10vh;
-		margin-left: 25vw;
-	}
-
-	h1{
-		background-color: $light;
-		color: $dark;
-		width: 60vw;
-		height: 20vh;
-		margin-left: 20vw;
-	}
-
-	a{
-		background-color:lib.$primary;
-		color: lib.$secondary;
-	}
-}
-
 .calc{
   width: 80vw;
   height: 60vh;
