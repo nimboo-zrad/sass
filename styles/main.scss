@@ -28,18 +28,19 @@ body{
 
 .calc{
   width: 80vw;
-  height: 80vh;
-  margin: 10vh 10vw;
+  height: 60vh;
+  margin: 20vh 10vw;
   background-color: #dddd34;
   border-radius: 2rem;
 }
 
 .display{
   width: 80%;
-  height: 30%;
+  height: 20%;
   background-color: #ddd456;
   margin: 10%;
   border-radius: 1rem;
   padding: 1rem;
   box-sizing: border-box;
+  font-size: 3rem;
 }
